@@ -17,7 +17,7 @@
 ## Version 3
 * Remove bootstrap(hence jQuery) and use CSS grid to re-build the UI. ✅
 * Make random quote machine from scratch without bootstrap's UI.✅
-* Project Repo is [here]()
+* Project Repo is [here](https://github.com/zhouxiang19910319/trick2g_site_3)
 
 ## Features Pending to be added in Version 4
 1. Make the youtube playlist section an infinite scroll one. Utilizing `nextPageToken` as well as `prevPageToken` ?? 
