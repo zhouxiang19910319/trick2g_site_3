@@ -1,5 +1,10 @@
 #### Goal: Making a site that integrate trick2g's youtube channel as well as twitch.tv channel, so people can come to this site and watch both feeds at the same time.
 
+![trkChamp](https://res.cloudinary.com/zzrot/image/upload/v1543383281/trick2g_site/trkChamp_big.png)
+![trkChamp](https://res.cloudinary.com/zzrot/image/upload/v1543383281/trick2g_site/trkChamp_big.png)
+![trkChamp](https://res.cloudinary.com/zzrot/image/upload/v1543383281/trick2g_site/trkChamp_big.png)
+
+
 ## Version 1
 * Embed youtube videos as well as twicth.tv section into my site.
 * Project Repo is [here](https://github.com/zhouxiang19910319/trick2g_site)
