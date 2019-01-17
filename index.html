@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>1time4d1time</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Navbar Section-->
+  <nav>
+
+    <span class="navbar-toggle" id="html_navbar_toggle" onclick="function toggle_menu_bar()">
+      <i class="fas fa-bars"></i>
+    </span>
+
+    <a href="#!" id="logo"><img src="https://res.cloudinary.com/zzrot/image/upload/v1543380836/trick2g_site/favicon.png"
+        alt="favicon" id="nav_icon">Trick2g's Unofficial Site</a>
+
+    <div id="modal_div">
+      <div id="modal_content">
+        <img src="https://res.cloudinary.com/zzrot/image/upload/v1544535327/trick2g_site/LUL.png" alt="LUL_Pic" id="modal_pic">
+        <p id="modal_p"></p>
+      </div>
+    </div>
+
+    <ul id="ul_menu">
+      <li><a href="#" id="quote_button">Random Quote</a></li>
+      <li><a href="https://github.com/zhouxiang19910319" target="_blank">Dev Github</a></li>
+      <li><a href="https://twitter.com/zh0ux1ang" target="_blank">Dev Twitter</a></li>
+      <li><a href="https://zhouxiang19910319.github.io/project_documentations/2018/12/12/Trick2g-Site-Project-Documentation.html"
+          target="_blank">Project
+          Detail</a></li>
+    </ul>
+
+  </nav>
+
+  <!--twitch.tv section-->
+  <div id="twitchtv_header">
+    <img src="./img/twitch_logo.png" alt="twitch.tv logo" id="twitch_logo" class="section_logo">
+  </div>
+
+  <div id="twitch_tv_wrapper">
+    <div id="twitch_video" class="videoWrapper">
+      <iframe src="https://player.twitch.tv/?channel=trick2g&muted=true" height=auto width=auto frameborder="0"
+        scrolling="no" allowfullscreen="true" muted="true" id="twitch_embed">
+      </iframe>
+    </div>
+    <div id="twitch_chat" class="videoWrapper">
+      <iframe scrolling="yes" id="trick2g" src="https://www.twitch.tv/embed/trick2g/chat"></iframe>
+    </div>
+  </div>
+
+  <!--Youtube Part-->
+  <div id="youtube_header">
+    <img src="./img/youtube_logo.png" alt="youtube_logo" id="youtube_logo" class="section_logo">
+  </div>
+  <!--Youtube Player-->
+  <div id="youtube_feed" class="videoWrapper"></div>
+  <!--YOutube Playlist-->
+  <div id="youtube_playlist"></div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
